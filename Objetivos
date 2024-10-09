@@ -1,0 +1,11 @@
+- Backend:
+1.- Manetener un código correctamente ordenado, dejando las variables en primer lugar y después la lógica del programa.
+2.- Tener el código lo menos redundante posible, volivendolo más eficiente.
+3.- Tener una lógica sencilla para la creación del laberinto, donde se recorra la matriz de una forma no muy compleja.
+4.- Dividir el programa en funciones para facilitar la comprención del código y su funcionalidad.
+
+- Frontend:
+1.- Darle una presentación adecuada al programa.
+2.- Mostrar el laberinto de una forma agradable al usuario.
+3.- Brindar una interfaz que te permita acceder de forma cómoda al laberinto.
+4.- Dejarle al usuario la mayor interacción posible con el movimiento que pueda tener dentro del laberinto.
