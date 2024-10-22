@@ -103,10 +103,10 @@ def encontrar_teletransporte(x, y):
 def acertijo():
     preguntas = [
         ("¿Cuál es la capital de Francia?", "paris"),
-        ("¿Cuál es el océano más grande del mundo?", "pacifico"),
-        ("¿Quién escribió 'Cien años de soledad'?", "garcia marquez"),
-        ("¿Cuál es la fórmula química del agua?", "h2o"),
-        ("¿Qué planeta es conocido como el Planeta Rojo?", "marte"),
+        ("¿Cuánto es 2 + 2?", "4"),
+        ("Cuántos meses tiene un año?", "12"),
+        ("¿Qué color se forma cuando se combina el rojo y el amarillo?", "naranja"),
+        ("¿Qué idioma se habla en Australia?", "ingles"),
     ]
     pregunta, respuesta_correcta = random.choice(preguntas)
     respuesta = simpledialog.askstring("Acertijo", pregunta)
