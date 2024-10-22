@@ -101,8 +101,14 @@ def encontrar_teletransporte(x, y):
 # Acertijo al llegar a celda acertijo
 
 def acertijo():
-    pregunta = "¿Cuál es la capital de Francia?"
-    respuesta_correcta = "paris"
+    preguntas = [
+        ("¿Cuál es la capital de Francia?", "paris"),
+        ("¿Cuál es el océano más grande del mundo?", "pacifico"),
+        ("¿Quién escribió 'Cien años de soledad'?", "garcia marquez"),
+        ("¿Cuál es la fórmula química del agua?", "h2o"),
+        ("¿Qué planeta es conocido como el Planeta Rojo?", "marte"),
+    ]
+    pregunta, respuesta_correcta = random.choice(preguntas)
     respuesta = simpledialog.askstring("Acertijo", pregunta)
     return respuesta is not None and respuesta.lower() == respuesta_correcta
 
